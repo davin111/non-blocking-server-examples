@@ -1,0 +1,12 @@
+server.port: 8072
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/example_snu?sslMode=DISABLED
+    username: example_snu
+    password: Snu1234!
+
+logging:
+  level:
+    web: DEBUG
+    org.springframework.r2dbc: DEBUG

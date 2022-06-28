@@ -1,0 +1,12 @@
+server.port: 8070
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/example_snu?verifyServerCertificate=false&useSSL=false
+    username: example_snu
+    password: Snu1234!
+
+logging:
+  level:
+    web: DEBUG
+    org.springframework.jdbc: DEBUG
